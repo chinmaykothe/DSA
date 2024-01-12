@@ -3,6 +3,9 @@ package com.axelblaze.dsa.BinarySearch;
 import java.util.Arrays;
 
 public class FindFirstAndLastPosition {
+
+    // Approach
+
     public int[] searchRange(int[] nums, int target) {
         int[] pos = new int[2];
         Arrays.fill(pos, -1);
